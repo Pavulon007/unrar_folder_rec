@@ -1,4 +1,4 @@
-#!/usr/lo"+ycal/bin/python3.6
+#!/usr/local/bin/python3.6
 
 import os, sys
 import datetime
