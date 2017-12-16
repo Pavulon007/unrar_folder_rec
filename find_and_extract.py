@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3.6
+#!/usr/lo"+ycal/bin/python3.6
 
 import os, sys
 import datetime
@@ -47,7 +47,7 @@ def extract_compressed(directory, filename):
     os.chdir(wd)
 
 def save_file(log_entry):
-    f = "/root/scripts/unrar/extract.log"
+    f = "%s/extract.log" % downloads_path
     if os.path.exists(f):
         append_or_write = "a"
     else:
